@@ -1,0 +1,6 @@
+[submodule "libs/fuel"]
+	path = libs/fuel
+	url = https://github.com/mila-udem/fuel.git
+[submodule "libs/libs/picklable-itertools"]
+	path = libs/picklable-itertools
+	url = https://github.com/mila-udem/picklable-itertools.git
