@@ -33,3 +33,25 @@ def check_gradient(f, X, delta=1e-4, prec=1e-6):
             raise Exception("Numerical and anaylical gradients differ: %s != %s!" %
                             (num_grad, fgrad))
     return True
+
+    
+def encode_params(P):
+    """
+    Flatten and concatenate parameters into a single list.
+    """
+    flat = np.hstack([p.ravel() for p in P])
+    shapes = [p.shape for p in P]
+    return flat, shapes
+
+    
+def decode_params(P, shapes):
+    """
+    Decompress a single list of parameters into individual arrays
+    """
+    ret = []
+    i = 0
+    for s in shapes:
+        e = i + np.prod(s)
+        ret.append(P[i:e].reshape(s))
+        i = e
+    return ret
