@@ -12,5 +12,5 @@ fi
 export FUEL_DATA_PATH=/pio/data/data/fuel/
 
 #python modules
-export PYTHONPATH=$NN:$NN/libs/fuel:$NN/libs/picklable-itertools:$PYTHONPATH
-export PATH=$ASCOPE/libs/fuel/bin:$PATH
+export PYTHONPATH=$NN:$NN/libs/Theano:$NN/libs/fuel:$NN/libs/picklable-itertools:$PYTHONPATH
+export PATH=$NN/libs/fuel/bin:$PATH

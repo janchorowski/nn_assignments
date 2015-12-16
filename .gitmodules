@@ -4,3 +4,6 @@
 [submodule "libs/libs/picklable-itertools"]
 	path = libs/picklable-itertools
 	url = https://github.com/mila-udem/picklable-itertools.git
+[submodule "libs/Theano"]
+	path = libs/Theano
+	url = https://github.com/Theano/Theano.git
