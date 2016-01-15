@@ -11,6 +11,9 @@ fi
 
 export FUEL_DATA_PATH=/pio/data/data/fuel/
 
+export BLOCKS_CONFIG=$NN/config/blocks.yaml
+export THEANORC=$NN/config/theano.rc:$HOME/.theanorc
+
 #python modules
 export PYTHONPATH=$NN:$NN/libs/Theano:$NN/libs/fuel:$NN/libs/picklable-itertools:$PYTHONPATH
 export PATH=$NN/libs/fuel/bin:$PATH
