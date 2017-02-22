@@ -1,4 +1,3 @@
-[2017]
 This is the starter code for assignments. To begin please clone it to your computer:
 
 1. on **Linux** execute `git clone --recursive https://github.com/janchorowski/nn_assignments.git`
