@@ -8,6 +8,12 @@ After downloading the code you need to set some environment variables:
 1. On **Linux** fire up a shell and `source set-env.sh`.
 2. On **Windows** fire up the python shell, then execute `set-env.bat`.
 
+To run the notebook, execute
+
+`$ jupyter notebook`
+
+or `ipython notebook` in the case of older version. You will interact with the notebook through your web browser.
+
 Finally you need the datasets:
 
 1. On **Lab computers** they are already downloaded to `/pio/data/data/fuel`, just make sure that the `FUEL_DATA_PATH` variable is set (it should be set by the `set-env` scripts).
