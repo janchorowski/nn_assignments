@@ -31,7 +31,7 @@ def plot_mat(mat, scaleIndividual=True, colorbar=False, prop=(9,16), gutters=2,
     Inputs
     ------
     mat: 4D tensor, n_images x n_channels x rows x columns
-    
+
     """
     nSamples, nChannels, r, c = mat.shape
     gr, gc =  get_grid(nSamples, (prop[0]*c, prop[1]*r))
