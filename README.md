@@ -12,10 +12,9 @@ To run the notebook, execute
 
 `$ jupyter notebook`
 
-or `ipython notebook` in the case of older version. You will interact with the notebook through your web browser.
+You will interact with the notebook through your web browser.
 
 Finally you need the datasets:
 
-1. On **Lab computers** they are already downloaded to `/pio/data/data/fuel`, just make sure that the `FUEL_DATA_PATH` variable is set (it should be set by the `set-env` scripts).
-2. On your own computer, please download the datasets into the `datasets` folder, see its README for details. Also, make sure that the `datasets` folder is on the 
-`FUEL_DATA_PATH` (it should be set by the `set-env` scripts).
+1. On **Lab computers** they are already downloaded to `/pio/data/data/torchvision`. Just make sure that the `PYTORCH_DATA_PATH` variable is set (it should be set by the `set-env` scripts).
+2. On your own computer, the datasets should be downloaded automatically on-demand to the `data` folder, placed in the `nn_assignments` directory (the root of this repository).

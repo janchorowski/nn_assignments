@@ -7,9 +7,15 @@ if [ \( "`which ipython`" != /pio/os/anaconda/bin/ipython \) -a \( -e /pio/os/an
 then
     echo "Adding Anaconda Python from /pio/os to your environment"
     source /pio/os/anaconda/set-env.sh
-    source /pio/os/cuda-8.0_cudnn-5.1/set-env.sh
 fi
 
+if [ -z ${CUDA_DIR+x} ]; then
+    echo "Adding CUDA to your environment"
+    source /pio/os/cuda-8.0_cudnn-6.0/set-env.sh
+fi
 
 #python modules
 export PYTHONPATH=$NN:$PYTHONPATH
+
+# Torchvision
+export PYTORCH_DATA_PATH="/pio/data/data/torchvision"
