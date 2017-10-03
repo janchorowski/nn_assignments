@@ -18,4 +18,9 @@ fi
 export PYTHONPATH=$NN:$PYTHONPATH
 
 # Torchvision
-export PYTORCH_DATA_PATH="/pio/data/data/torchvision"
+if [ \( -e /pio/data/data/torchvision \) ]; then
+    export PYTORCH_DATA_PATH="/pio/data/data/torchvision"
+else
+    export PYTORCH_DATA_PATH="$NN/data"
+fi
+echo "Using $PYTORCH_DATA_PATH as data path."

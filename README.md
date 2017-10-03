@@ -1,7 +1,7 @@
 This is the starter code for assignments. To begin please clone it to your computer:
 
-1. on **Linux** execute `git clone --recursive https://github.com/janchorowski/nn_assignments.git`
-2. on **Windows** first install a `git` client, such as [TortoiseGIT](https://tortoisegit.org/). Alternatively, you may want the console tools [MSysGit](https://git-for-windows.github.io/). Then clone the repository either using the GUI (remember to check the **recursive**) option, or from the Git bash shell using  `git clone --recursive https://github.com/janchorowski/nn_assignments.git`.
+1. on **Linux** execute `git clone https://github.com/janchorowski/nn_assignments.git`
+2. on **Windows** first install a `git` client, such as [TortoiseGIT](https://tortoisegit.org/). Alternatively, you may want the console tools [MSysGit](https://git-for-windows.github.io/). Then clone the repository either using the GUI, or from the Git bash shell using  `git clone https://github.com/janchorowski/nn_assignments.git`.
 
 After downloading the code you need to set some environment variables:
 
