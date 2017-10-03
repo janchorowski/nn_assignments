@@ -1,4 +1,10 @@
-This is the starter code for assignments. To begin please clone it to your computer:
+This is the starter code for assignments.
+
+We highly reccomned that you use lab computers to do the assignments. Please follow the [lab guide](lab_guide.pdf) for instructions on accessing lab computers from home.
+
+If you wish to use your own computer, please install Anaconda Python, Tensorflow and Pytorch on it. On Linux this should be easy, on Windows doable. We will make sure that the starter code runs on Python 2.7 on lab computers. For Python 3 and Windows support, please send us GitHub Pull Requests.
+
+To begin working on the assignments please clone the repository to your computer:
 
 1. on **Linux** execute `git clone https://github.com/janchorowski/nn_assignments.git`
 2. on **Windows** first install a `git` client, such as [TortoiseGIT](https://tortoisegit.org/). Alternatively, you may want the console tools [MSysGit](https://git-for-windows.github.io/). Then clone the repository either using the GUI, or from the Git bash shell using  `git clone https://github.com/janchorowski/nn_assignments.git`.
@@ -13,8 +19,3 @@ To run the notebook, execute
 `$ jupyter notebook`
 
 You will interact with the notebook through your web browser.
-
-Finally you need the datasets:
-
-1. On **Lab computers** they are already downloaded to `/pio/data/data/torchvision`. Just make sure that the `PYTORCH_DATA_PATH` variable is set (it should be set by the `set-env` scripts).
-2. On your own computer, the datasets should be downloaded automatically on-demand to the `data` folder, placed in the `nn_assignments` directory (the root of this repository).
