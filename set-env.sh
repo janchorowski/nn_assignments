@@ -19,7 +19,7 @@ export PYTHONPATH=$NN:$PYTHONPATH
 
 # Torchvision
 if [ \( -e /pio/data/data/torchvision \) ]; then
-    export PYTORCH_DATA_PATH="/pio/data/data/torchvision"
+    export PYTORCH_DATA_PATH="/pio/data/data/kursy/nnets"
 else
     export PYTORCH_DATA_PATH="$NN/data"
 fi
