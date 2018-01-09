@@ -97,5 +97,13 @@ To work comfortably:
 
 Please note that GPU instances can be powered off for maintenance, possibly without warning. This is unlikely, but please save your code and your results early to prevent data loss.
 
-
 ![img](img/0120.png)
+
+## 6. Getting your data in and out
+
+You can use `rsync` or `scp` to copy the data:
+* setup `ssh` keys,
+* to upload the data to the cloud with `rsync` use a command like:
+  `rsync -avz -e ssh <PATH_ON_LOCAL_HOST> <IP>:/<PATH_ON_REMOTE_HOST>`
+* to upload the data to the cloud with `rsync` use a command like:
+  `rsync -avz -e ssh <IP>:/<PATH_ON_REMOTE_HOST> <PATH_ON_LOCAL_HOST>`
