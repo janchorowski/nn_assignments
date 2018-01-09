@@ -86,4 +86,7 @@ If you need to run the instance without using GPUs for longer perids of time
 (e.g., for coding or uploading the data) we ask you to turn off the instance,
 edit the hardware and unmount the GPU. This way you will save credits.
 
-To work comfortably, you can add your public ssh keys and connect remotely.
+To work comfortably:
+* add your public ssh keys and connect remotely,
+* keep your code in an external repository,
+* save snapshots during training and design your code to resume the training in case of failures.
