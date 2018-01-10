@@ -1,6 +1,6 @@
 This is the starter code for assignments.
 
-We highly reccomned that you use lab computers to do the assignments. Please follow the [lab guide](lab_information/lab_guide.pdf) for instructions on accessing lab computers from home. For the projects you can also use the [Google Cloud](lab_information/gce/README.md), using the educatoin credits generously provided by Google.
+We highly reccomned that you use lab computers to do the assignments. Please follow the [lab guide](lab_information/lab_guide/README.md) for instructions on accessing lab computers from home. For the projects you can also use the [Google Cloud](lab_information/gce/README.md), using the educatoin credits generously provided by Google.
 
 If you wish to use your own computer, please install Anaconda Python, Tensorflow and Pytorch on it. On Linux this should be easy, on Windows doable. We will make sure that the starter code runs on Python 2.7 on lab computers. For Python 3 and Windows support, please send us GitHub Pull Requests.
 
