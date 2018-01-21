@@ -30,7 +30,13 @@ and you *don't need* to give your credit card details.
 
 ## 2. Log in
 Visit [https://cloud.google.com/compute/](https://cloud.google.com/compute/) and log in.
+Please note: upon first landing you might be presented with `Try it for free` option rather than log in.
+If so, click on `Console` on top of the page. **You do not need to start the free trial.**
 ![img](img/0000.png)
+
+Make sure the `NN2017` project is active.
+![img](img/0004.png)
+![img](img/0006.png)
 
 Go to the management console and list the instances.
 
