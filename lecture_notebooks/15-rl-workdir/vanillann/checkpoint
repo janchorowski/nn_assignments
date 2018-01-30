@@ -1,0 +1,2 @@
+model_checkpoint_path: "tf_save-1540"
+all_model_checkpoint_paths: "tf_save-1540"
