@@ -1,5 +1,5 @@
-### [_Multi-Scale Dense Networks for Resource Efficient Image Classification_](https://openreview.net/forum?id=Hk2aImxAb)
-###### _Gao Huang_, _Danlu Chen_, _Tianhong Li_, _Felix Wu_, _Laurens van der Maaten_, _Kilian Weinberger_
+### Reproducibility report for Huang at al. [_"Multi-Scale Dense Networks for Resource Efficient Image Classification"_](https://openreview.net/forum?id=Hk2aImxAb)
+###### _Radosław Miernik_, _Arleta Juszczak_
 
 ---
 
@@ -11,7 +11,7 @@ Arleta Juszczak ([@ajusz](https://github.com/ajusz)), Radosław Miernik ([@radek
 
 ### Abstract
 
-As a part of the reproducibility challenge, we've attempted to recreate results of this paper. Authors haven't included any source code, but very clearly described the net architecture and all transformations on mentioned datasets. We've taken a lot of ideas directly from [`gaohuang/MSDNet`](https://github.com/gaohuang/MSDNet/), which turned out to be an actual reference implementation (we've rewritten it from Torch to PyTorch).
+As a part of the reproducibility challenge, we've attempted to recreate results of this paper. The authors provided a Torch impementation at [`gaohuang/MSDNet`](https://github.com/gaohuang/MSDNet/), but it was not advertised in the anonymous solution. We have based out PyTorch version on it, but learned that it is the reference implementation only after ICLR review results were announced.
 
 As we've successfully run the already mentioned network, our focus was on testing if it's really usable, in a practical way. It means that more than the actual results (which, of course, are very important), we were interested in the easiness of use of this network, namely, susceptibility for the meta parameters changes. In a way, a net which results in few percents less accuracy every time is actually a lot better than a one with easily varying results.
 
