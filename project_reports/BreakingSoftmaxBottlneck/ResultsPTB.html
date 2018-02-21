@@ -1,0 +1,253 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;margin:0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-4qgn{font-weight:bold;background-color:#fffe65;text-align:center;vertical-align:top}
+.tg .tg-mzah{background-color:#96fffb;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-k3fr{background-color:#ecf4ff;text-align:center;vertical-align:top}
+.tg .tg-2lp6{font-weight:bold;background-color:#bbdaff;vertical-align:top}
+.tg .tg-7yba{background-color:#bbdaff;text-align:center;vertical-align:top}
+.tg .tg-zu36{font-weight:bold;font-style:italic;text-decoration:underline;background-color:#ecf4ff;text-align:center;vertical-align:top}
+.tg .tg-7ojv{font-weight:bold;background-color:#ecf4ff;vertical-align:top}
+.tg .tg-2xmk{background-color:#ffffc7;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-6hok{font-weight:bold;background-color:#96fffb;text-align:center;vertical-align:top}
+.tg .tg-fdo1{background-color:#bbdaff;font-weight:bold;vertical-align:top}
+.tg .tg-lajg{background-color:#bbdaff;font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;vertical-align:top}
+.tg .tg-gd0f{font-weight:bold;font-style:italic;text-decoration:underline;background-color:#bbdaff;text-align:center;vertical-align:top}
+.tg .tg-14nr{background-color:#bbdaff;text-align:center;vertical-align:top}
+.tg .tg-ozja{background-color:#ecf4ff;text-align:center;vertical-align:top}
+.tg .tg-kjr6{background-color:#ecf4ff;font-weight:bold;vertical-align:top}
+.tg .tg-unvx{background-color:#ecf4ff;font-weight:bold;font-style:italic;text-decoration:underline;text-align:center;vertical-align:top}
+.tg .tg-calz{font-weight:bold;background-color:#ecf4ff;text-align:center;vertical-align:top}
+.tg .tg-opac{background-color:#ecf4ff;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 1586px">
+<colgroup>
+<col style="width: 170px">
+<col style="width: 86px">
+<col style="width: 84px">
+<col style="width: 124px">
+<col style="width: 115px">
+<col style="width: 76px">
+<col style="width: 132px">
+<col style="width: 71px">
+<col style="width: 92px">
+<col style="width: 90px">
+<col style="width: 134px">
+<col style="width: 105px">
+<col style="width: 102px">
+<col style="width: 100px">
+<col style="width: 105px">
+</colgroup>
+  <tr>
+    <th class="tg-4qgn" colspan="15">Penn Treebank Dataset Results</th>
+  </tr>
+  <tr>
+    <td class="tg-2xmk">Model</td>
+    <td class="tg-2xmk">Ppl</td>
+    <td class="tg-2xmk">#Epochs</td>
+    <td class="tg-2xmk">#Parameters</td>
+    <td class="tg-2xmk">#Experts</td>
+    <td class="tg-2xmk">#HUnits</td>
+    <td class="tg-2xmk">EmbeddedSize</td>
+    <td class="tg-2xmk">Lr.Rate</td>
+    <td class="tg-2xmk">BatchSize</td>
+    <td class="tg-2xmk">Input Drop.</td>
+    <td class="tg-2xmk">Embedding Drop.</td>
+    <td class="tg-2xmk">Hidden Drop.</td>
+    <td class="tg-2xmk">Output Drop.</td>
+    <td class="tg-2xmk">Latent Drop.</td>
+    <td class="tg-2xmk">Weight Drop.</td>
+  </tr>
+  <tr>
+    <td class="tg-6hok" colspan="15">Papers</td>
+  </tr>
+  <tr>
+    <td class="tg-fdo1">(Paper) MoS</td>
+    <td class="tg-lajg">58.08</td>
+    <td class="tg-7yba">?</td>
+    <td class="tg-7yba">22M</td>
+    <td class="tg-7yba">15</td>
+    <td class="tg-7yba">960</td>
+    <td class="tg-7yba">280</td>
+    <td class="tg-7yba">20</td>
+    <td class="tg-7yba">12</td>
+    <td class="tg-7yba" rowspan="2"><br>0.4</td>
+    <td class="tg-7yba" rowspan="2"><br>0.1</td>
+    <td class="tg-7yba">0.225</td>
+    <td class="tg-7yba" rowspan="2"><br>0.4</td>
+    <td class="tg-7yba">0.29</td>
+    <td class="tg-7yba" rowspan="2"><br>0.5</td>
+  </tr>
+  <tr>
+    <td class="tg-2lp6">(Paper) AWD-LSTM</td>
+    <td class="tg-gd0f">60.7</td>
+    <td class="tg-14nr">750</td>
+    <td class="tg-14nr">24M</td>
+    <td class="tg-14nr">0</td>
+    <td class="tg-14nr">1150</td>
+    <td class="tg-14nr">400</td>
+    <td class="tg-14nr">30</td>
+    <td class="tg-14nr">40</td>
+    <td class="tg-14nr">0.3</td>
+    <td class="tg-14nr">0</td>
+  </tr>
+  <tr>
+    <td class="tg-mzah" colspan="15">Experiments</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">AWD-LSTM(400 emb, 20 Lr)</td>
+    <td class="tg-zu36">65.35</td>
+    <td class="tg-ozja">100</td>
+    <td class="tg-ozja" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>22M</td>
+    <td class="tg-ozja" rowspan="6"><br><br><br><br><br><br><br><br><br><br>0</td>
+    <td class="tg-ozja">1070</td>
+    <td class="tg-ozja">400</td>
+    <td class="tg-ozja">20</td>
+    <td class="tg-ozja">12</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.4</td>
+    <td class="tg-ozja" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>0.1</td>
+    <td class="tg-ozja" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>0.225</td>
+    <td class="tg-ozja" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>0.4</td>
+    <td class="tg-ozja" rowspan="6"><br><br><br><br><br><br><br>0</td>
+    <td class="tg-ozja" rowspan="11"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>0.5</td>
+  </tr>
+  <tr>
+    <td class="tg-kjr6">AWD-LSTM(500 emb, 30 Lr)</td>
+    <td class="tg-unvx">64.22</td>
+    <td class="tg-k3fr">100</td>
+    <td class="tg-k3fr">980</td>
+    <td class="tg-k3fr">500</td>
+    <td class="tg-k3fr">30</td>
+    <td class="tg-k3fr">12</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">AWD-LSTM(500 emb, 30 Lr, different seed)</td>
+    <td class="tg-zu36">63.91</td>
+    <td class="tg-ozja">100</td>
+    <td class="tg-ozja">980</td>
+    <td class="tg-ozja">500</td>
+    <td class="tg-ozja">30</td>
+    <td class="tg-ozja">12</td>
+  </tr>
+  <tr>
+    <td class="tg-kjr6">AWD-LSTM(600 emb, 20 Lr)</td>
+    <td class="tg-unvx">62.97</td>
+    <td class="tg-k3fr">100</td>
+    <td class="tg-k3fr">900</td>
+    <td class="tg-k3fr">600</td>
+    <td class="tg-k3fr">20</td>
+    <td class="tg-k3fr">12</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">AWD-LSTM(600 emb, 30 Lr)</td>
+    <td class="tg-zu36">63.73</td>
+    <td class="tg-ozja">100</td>
+    <td class="tg-ozja">900</td>
+    <td class="tg-ozja">600</td>
+    <td class="tg-ozja">30</td>
+    <td class="tg-ozja">12</td>
+  </tr>
+  <tr>
+    <td class="tg-kjr6">AWD-LSTM(600 emb, 20 Lr, Less drop)</td>
+    <td class="tg-unvx">62.99</td>
+    <td class="tg-k3fr">100</td>
+    <td class="tg-k3fr">900</td>
+    <td class="tg-k3fr">600</td>
+    <td class="tg-k3fr">20</td>
+    <td class="tg-k3fr">12</td>
+    <td class="tg-k3fr">0.28</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">MoC</td>
+    <td class="tg-zu36">62.72</td>
+    <td class="tg-ozja">100</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>15<br></td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>960</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>280</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>20</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>12</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br>0.4</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br>0.29</td>
+  </tr>
+  <tr>
+    <td class="tg-kjr6">MoC(different seed)</td>
+    <td class="tg-unvx">62.03</td>
+    <td class="tg-k3fr">100</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">MoS</td>
+    <td class="tg-zu36">60.8</td>
+    <td class="tg-ozja">100</td>
+  </tr>
+  <tr>
+    <td class="tg-kjr6">MoS(different seed)</td>
+    <td class="tg-unvx">61.17</td>
+    <td class="tg-k3fr">100</td>
+  </tr>
+  <tr>
+    <td class="tg-7ojv">MoS(different seed)</td>
+    <td class="tg-zu36">60.68</td>
+    <td class="tg-ozja">100</td>
+  </tr>
+  <tr>
+    <td class="tg-mzah" colspan="15">Experiments(More epochs)</td>
+  </tr>
+  <tr>
+    <td class="tg-calz">AWD-LSTM(400 emb, 20 Lr)</td>
+    <td class="tg-zu36">63.49</td>
+    <td class="tg-ozja">200</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>22M</td>
+    <td class="tg-ozja" rowspan="3"><br><br><br><br><br>0</td>
+    <td class="tg-ozja">1070</td>
+    <td class="tg-ozja">400</td>
+    <td class="tg-ozja">20</td>
+    <td class="tg-ozja">12</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.4</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.1</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.225</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.4</td>
+    <td class="tg-ozja">0</td>
+    <td class="tg-ozja" rowspan="5"><br><br><br><br><br><br><br>0.5</td>
+  </tr>
+  <tr>
+    <td class="tg-opac">AWD-LSTM(500 emb, 30 Lr)</td>
+    <td class="tg-unvx">62.79</td>
+    <td class="tg-k3fr">200</td>
+    <td class="tg-k3fr">980</td>
+    <td class="tg-k3fr">500</td>
+    <td class="tg-k3fr">30</td>
+    <td class="tg-k3fr">12</td>
+    <td class="tg-k3fr">0</td>
+  </tr>
+  <tr>
+    <td class="tg-calz">AWD-LSTM(600 emb, 30 Lr)</td>
+    <td class="tg-zu36">62.74</td>
+    <td class="tg-ozja">200</td>
+    <td class="tg-ozja">900</td>
+    <td class="tg-ozja">600</td>
+    <td class="tg-ozja">30</td>
+    <td class="tg-ozja">12</td>
+    <td class="tg-ozja">0</td>
+  </tr>
+  <tr>
+    <td class="tg-opac">MoC</td>
+    <td class="tg-unvx">60.98</td>
+    <td class="tg-k3fr">150</td>
+    <td class="tg-k3fr" rowspan="2"><br>15</td>
+    <td class="tg-k3fr" rowspan="2"><br>960</td>
+    <td class="tg-k3fr">280</td>
+    <td class="tg-k3fr">20</td>
+    <td class="tg-k3fr">12</td>
+    <td class="tg-k3fr">0.29</td>
+  </tr>
+  <tr>
+    <td class="tg-calz">MoS</td>
+    <td class="tg-zu36">59.66</td>
+    <td class="tg-ozja">150</td>
+    <td class="tg-ozja">280</td>
+    <td class="tg-ozja">20</td>
+    <td class="tg-ozja">12</td>
+    <td class="tg-ozja">0.29</td>
+  </tr>
+</table>
