@@ -38,13 +38,13 @@ We have configured the computers in Lab110 and Lab137.
 </tr>
 <tr class="odd">
   <td align="left"><b>IP</b></td>
-  <td colspan="3" align="center">192.168.4.1{70,...,88}</td>
+  <td colspan="3" align="center">192.168.4.{70,...,88}</td>
   <td align="center">192.168.4.1{50,...,67,69}</td>
 </tr>
 <tr class="odd">
 <td align="left"><b>Hostname</b></td>
-<td align="center">lab110-{01,04,05}</td>
-<td align="center">lab110-{02,03,06,07,08,09,10}</td>
+<td align="center">lab110-{01,04,05,08}</td>
+<td align="center">lab110-{02,03,06,07,09,10}</td>
 <td align="center">lab110-{11,...,20}</td>
 <td align="center">lab137-{01,...,19}</td>
 </tr>
