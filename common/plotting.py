@@ -36,7 +36,7 @@ def plot_mat(mat, scaleIndividual=True, colorbar=False, prop=(9,16), gutters=2,
     nSamples, nChannels, r, c = mat.shape
     gr, gc =  get_grid(nSamples, (prop[0]*c, prop[1]*r))
     toPlot = np.zeros((int(gr*r+(gr-1)*gutters), int(gc*c + (gc-1)*gutters), nChannels) ) + np.NaN
-    for s in xrange(nSamples):
+    for s in range(nSamples):
         pr = s // gc
         pc = s - (pr*gc)
         small_img = mat[s,:,:,:].transpose(1,2,0)
